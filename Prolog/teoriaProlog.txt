@@ -1,0 +1,14 @@
+es_un_pais(X).
+X=variable
+
+imprimir hasta que falle
+es_un_pais(X), write(X), nl, fail.
+es_un_pais(X), write("yo vivo en "), write(X), nl, fail.
+
+es_un_pais(_)
+_ :variable anonima, indica si existe.
+
+NUM=5, mayor_a(X,C,NUM), write(X), write(" es mayor a "), write(NUM), write(" ("), write(C), write(")."), nl, fail.
+
+; -> or
+, -> and
